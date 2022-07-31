@@ -1,0 +1,11 @@
+let math=75.25;
+let bio=65;
+let che= 80;
+let phy=35.45;
+let bangle=99.50;
+let totalNumber=math+bio+che+phy+bangle;
+console.log(totalNumber);
+let averageNumber=totalNumber/5;
+averageNumber=averageNumber.toFixed(2);
+averageNumber=parseFloat(averageNumber);
+console.log(averageNumber);
